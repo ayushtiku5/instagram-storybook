@@ -1,0 +1,30 @@
+---
+name: Form
+menu: Components
+order: 4
+---
+
+# Forms
+
+import Form from './src/components/Form';
+
+<hr style={{border: '1px solid'}}/>
+
+## Login Form
+<div style={{height: '315px', width: '350px', border: '1px solid', backgroundColor: 'white'}}>
+    <Form credentials={['username','password']} submitContent="Login" />
+</div>
+
+<hr />
+
+## Different fields
+<div style={{height: '315px', width: '350px', border: '1px solid', backgroundColor: 'white'}}>
+    <Form credentials={['email']} submitContent="Login" />
+</div>
+
+<hr />
+
+## With error message
+<div style={{height: '315px', width: '350px', border: '1px solid', backgroundColor: 'white'}}>
+    <Form credentials={['username','password']} submitContent="Login" errorMessage="User not found" />
+</div>

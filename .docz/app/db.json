@@ -1,0 +1,221 @@
+{
+  "config": {
+    "title": "Instagram V2",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "styles": {
+        "h1": "\n            font-size: 50px;\n            \n          ",
+        "h2": "\n            font-size: 20px;\n          "
+      }
+    },
+    "separator": "-"
+  },
+  "props": [
+    {
+      "key": "src/components/Button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Form.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Form",
+          "methods": [],
+          "actualName": "Form"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Image.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Image",
+          "methods": [],
+          "actualName": "Image"
+        }
+      ]
+    },
+    {
+      "key": "src/components/InputField.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "InputField",
+          "methods": [],
+          "actualName": "InputField"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Profile.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Profile",
+          "methods": [
+            {
+              "name": "handleFollow",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            }
+          ],
+          "actualName": "Profile"
+        }
+      ]
+    },
+    {
+      "key": "src/components/UserBox.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "UserBox",
+          "methods": [],
+          "actualName": "UserBox"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "Form.mdx",
+      "value": {
+        "name": "Form",
+        "menu": "Components",
+        "order": 4,
+        "id": "34ba06eba1756578a4dc7df607ebeae8",
+        "filepath": "Form.mdx",
+        "link": "",
+        "slug": "form",
+        "route": "/form",
+        "headings": [
+          {
+            "slug": "forms",
+            "depth": 1,
+            "value": "Forms"
+          },
+          {
+            "slug": "login-form",
+            "depth": 2,
+            "value": "Login Form"
+          },
+          {
+            "slug": "different-fields",
+            "depth": 2,
+            "value": "Different fields"
+          },
+          {
+            "slug": "with-error-message",
+            "depth": 2,
+            "value": "With error message"
+          }
+        ]
+      }
+    },
+    {
+      "key": "Image.mdx",
+      "value": {
+        "name": "Images",
+        "menu": "Components",
+        "order": 2,
+        "id": "d8580664c7cfb27a849a4cd4efc67782",
+        "filepath": "Image.mdx",
+        "link": "",
+        "slug": "image",
+        "route": "/image",
+        "headings": [
+          {
+            "slug": "images",
+            "depth": 1,
+            "value": "Images"
+          },
+          {
+            "slug": "square-image",
+            "depth": 2,
+            "value": "Square Image"
+          },
+          {
+            "slug": "rounded-image",
+            "depth": 2,
+            "value": "Rounded Image"
+          }
+        ]
+      }
+    },
+    {
+      "key": "InputField.mdx",
+      "value": {
+        "name": "Input Field",
+        "menu": "Components",
+        "order": 3,
+        "id": "652f74f6b989d63f39304c245fb91977",
+        "filepath": "InputField.mdx",
+        "link": "",
+        "slug": "input-field",
+        "route": "/input-field",
+        "headings": [
+          {
+            "slug": "input-fields",
+            "depth": 1,
+            "value": "Input fields"
+          },
+          {
+            "slug": "text-field",
+            "depth": 2,
+            "value": "Text field"
+          },
+          {
+            "slug": "password-field",
+            "depth": 2,
+            "value": "Password field"
+          }
+        ]
+      }
+    },
+    {
+      "key": "button.mdx",
+      "value": {
+        "name": "Buttons",
+        "menu": "Components",
+        "order": 1,
+        "id": "917826ec4be6a36e6d549e124174643d",
+        "filepath": "button.mdx",
+        "link": "",
+        "slug": "button",
+        "route": "/button",
+        "headings": [
+          {
+            "slug": "buttons",
+            "depth": 1,
+            "value": "Buttons"
+          },
+          {
+            "slug": "normal-button",
+            "depth": 2,
+            "value": "Normal button"
+          },
+          {
+            "slug": "submit-button",
+            "depth": 2,
+            "value": "Submit button"
+          }
+        ]
+      }
+    }
+  ]
+}
